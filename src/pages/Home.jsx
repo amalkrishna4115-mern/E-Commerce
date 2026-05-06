@@ -195,12 +195,12 @@ const onhandleChange = (e) => {
         <div className="d1">
           <h1>Our Top Categories</h1>
         </div>
-        <div className="d2">
+        {/* <div className="d2">
           <p>Sorted by:</p>
           <button>
-            All Category <i className="bi bi-filter"></i>
+            All Cateory <i className="bi bi-filter"></i>
           </button>
-        </div>
+        </div> */}
       </div>
 
      
