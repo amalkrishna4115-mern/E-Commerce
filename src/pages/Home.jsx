@@ -156,13 +156,10 @@ const onhandleChange = (e) => {
 
           <div className="nav-wrapper">
  
-      <i
-        className="bi bi-list hamburger"
-        onClick={() => setMenuOpen(!menuOpen)}
-      ></i>
+
 
       
-      <div className={`nav-icons ${menuOpen ? "open" : ""}`}>
+      <div className="nav-icons" >
         <i className="bi bi-handbag" onClick={() => setCartOpen(true)}></i>
         <i className="bi bi-bell"></i>
         <i className="bi bi-heart" onClick={() => setWishOpen(true)}></i>
